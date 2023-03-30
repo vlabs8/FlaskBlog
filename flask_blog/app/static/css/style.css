@@ -1,0 +1,61 @@
+/* Add your CSS rules here */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #f8f9fa;
+    padding: 20px;
+}
+
+nav {
+    padding: 20px;
+}
+
+nav a {
+    color: #007bff;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 20px;
+}
+
+footer {
+    background-color: #f8f9fa;
+    padding: 20px;
+    text-align: center;
+}
+
+.edit-button,
+.delete-button {
+    display: inline-block;
+    background-color: #007bff;
+    color: white;
+    padding: 5px 10px;
+    margin-top: 5px;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+}
+
+.delete-button {
+    background-color: #dc3545;
+    margin-left: 5px;
+}
+
+.edit-button:hover,
+.delete-button:hover {
+    opacity: 0.8;
+}
+
+.delete-form {
+    display: inline;
+}
